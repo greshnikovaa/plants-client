@@ -1,0 +1,60 @@
+.mein_container{
+    margin-top: 140px;
+    text-align: center;
+}
+.mein_container h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+}
+.mein_container p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727272;
+}
+.cards{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.card{
+    text-align: start;
+    width: 260px;
+    background-color: #FBFBFB;
+}
+.card h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+
+}
+.card h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin: 0;
+}
+.card h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin: 8px 0 5px 0;
+}
+.card p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+.card .green_tekst{
+    color:#46A358;
+}
+.card_txt{
+    padding-left: 15px;
+}

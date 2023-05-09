@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+}
+.list li{
+    padding: 25px;
+}
+.btns{
+    display: flex;
+    gap: 30px;
+    align-items: center;   
+}
+.btns i{
+    font-size: 30px;
+}
+.active{
+    border-bottom: 2px solid #46A358;
+    
+}
+.cart{
+    position: relative;
+}
+.count_cart{
+    position: absolute;
+    right: -5px;
+    top: -3px;
+    border-radius: 11px;
+    background-color: #46A358;
+    color: white;
+    padding: 1px 6px;
+    font-size: 10px;
+}

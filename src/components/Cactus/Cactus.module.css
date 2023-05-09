@@ -1,0 +1,31 @@
+.mein_sides{
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-between;
+
+}
+.side{
+    background-color: #FBFBFB;
+    display: flex;   
+}
+.tekst{
+    padding: 30px 20px; 
+    text-align: end;
+}
+.tekst h2{
+    color: #3D3D3D;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.tekst p{
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
